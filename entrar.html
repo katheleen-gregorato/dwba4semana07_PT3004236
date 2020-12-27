@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8"> <!-- configura a codificação de caracteres do navegador para o UTF-8-->
+  <link rel="shortcut icon" href="Imagens/favicon.ico" type="image/x-icon"> <!-- Adiciona o ícone de aba de navegador-->
+  <link rel="stylesheet" href="css/form.css">
+  <!--link rel="stylesheet" href="css/menulateral.css"-->   
+  <title>ENTRAR - IFSP - Pirituba</title> <!-- Adiciona o título na aba do navegador-->
+</head>
+  <body>
+    <header id="cabecalho"> <!-- Indica o cabeçalho do nosso documento-->
+      <nav>
+        <object width="100%" height="200px" data="menu.html"></object>    
+      </nav>    
+    </header>
+  <main>
+    <h1>Entrar</h1>
+
+  <form method="POST">
+        <p class="usuario">
+          <label for="Usuário">Usuário </label>
+          <input type="text" name="usuário" id="usuário" class="generalborder" required/><br>
+        </p>
+        <p class="senha">
+          <label for="Senha">Senha </label>
+          <input type="password" name="password" id="password" required/><br>
+        </p>
+        <p class="entrargeral">
+           <button type="submit" name="button">Entrar</button>
+          <a href="#">Esqueci a senha</a>
+        </p>
+  </form>
+    <nav>
+      <object width="100%" height="200px" data="rodape.html"></object>    
+    </nav> 
+  </main>
+  </body>
+</html>
